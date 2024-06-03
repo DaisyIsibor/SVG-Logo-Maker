@@ -11,6 +11,7 @@ function main() {
 
         message: "Enter logo text (up to three characters):",
 
+
         message: "Enter up to three characters for the logo text:",
         validate: function (input) {
           return input.length > 0 && input.length <= 3;
