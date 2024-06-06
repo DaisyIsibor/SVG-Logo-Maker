@@ -26,7 +26,7 @@ function main() {
         type: "list",
         name: "shapeType",
         message: "Choose a shape:",
-        choices: ["circle", "triangle", "square"],
+        choices: ["circle", "triangle", "square","pyramid","star"],
       },
       {
         type: "input",
