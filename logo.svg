@@ -1,1 +1,2 @@
-<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg"><circle cx="150" cy="100" r="80" fill="pink" /><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="green">AAA</text></svg>
+<?xml version="1.0" standalone="no"?>
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 200"><polygon points="150,20 230,180 70,180" fill="black" /><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="orange">GIT</text></svg>
