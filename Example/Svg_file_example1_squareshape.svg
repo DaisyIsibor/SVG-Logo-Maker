@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>SVG Logo</title>
-</head>
-<body>
-   <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg"><rect x="50" y="50" width="200" height="100" fill="red" /><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="Black">SVG</text></svg>
-</body>
-</html>
