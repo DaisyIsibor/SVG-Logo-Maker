@@ -30,23 +30,28 @@ This succinct description highlights the key features and benefits of your SVG L
 Your task is to build a Node.js command-line application that takes in user input to generate a logo and save it as an [SVG file](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics). The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a `.svg` file.
 
 Because this application won’t be deployed, you’ll need to provide a link to a walkthrough video that demonstrates its functionality and passes all of the tests. You’ll need to submit a link to the video **and** add it to the README of your project.
+
 ## Installation
 
-To install Notebook Planner, follow these steps:
+To install dependencies, follow these steps:
 
-Your application should use [Jest](https://www.npmjs.com/package/jest) for running the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) for collecting input from the user. The application will be invoked by using the following command:
+Your application should use [Jest](https://www.npmjs.com/package/jest)
+
+For running the unit tests and [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) 
+
+For collecting input from the user. The application will be invoked by using the following command: node index.js
 
 ### User Story
 
-```md
+
 AS a freelance web developer
 I WANT to generate a simple logo for my projects
 SO THAT I don't have to pay a graphic designer
-```
 
-## Acceptance Criteria
 
-```md
+### Acceptance Criteria
+
+
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for text
 THEN I can enter up to three characters
@@ -61,25 +66,36 @@ THEN an SVG file is created named `logo.svg`
 AND the output text "Generated logo.svg" is printed in the command line
 WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
-```
+
 ## Usage
 
 To use SVG Logomaker, follow these steps:
 
 Open your terminal.
+
 Navigate to the project directory.
+
 Run node index.js to start the application.
+
 Follow the prompts to select colors, shapes, and text for your logo.
+
 Once you've entered input for all prompts, an SVG file named logo.svg will be created in the project directory.
 
 
 ## Tests
 
 To run tests, follow these steps:
-
 Open your terminal.
 Navigate to the project directory.
 Run npm test to run the test suite.
+
+![alt text](<images/first command.png>)
+![alt text](<images/second command.png>)
+![alt text](<images/logo created.png>)
+![alt text](images/logo-text.png)
+![alt text](images/logo-view.png)
+![alt text](<images/run test.png>)
+
 
 
 ## Questions
